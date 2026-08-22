@@ -1,0 +1,72 @@
+/*
+    Daniel Fryer
+    Assignment 2 CSS sheet
+    8/22/2026
+*/
+
+/* Setting the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c9afaf;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Overall page setup */
+.container {
+    width: 80%;
+    margin: auto;
+    background-color: rgb(233, 231, 231);
+    padding: 25px;
+    border-radius: 8px;
+}
+
+/* Used to get the text of the page description to center into the image */
+.desc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* set the main photo */
+.MainPhoto {
+    width: 200px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* set the H1 to center on the page */
+h1 {
+    text-align: center;
+}
+
+/* adding some space between the field descriptions */
+h2 {
+    margin-top: 25px;
+}
+
+/* Table CSS */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Set the boarder and the base color */
+th,
+td {
+    border: 1px solid #414141;
+    padding: 10px;
+    text-align: left;
+}
+
+/* give the table headers a different color*/
+th {
+    background-color: #dfbdbd;
+}
+
+/* Give every other row a different color to help with readability */
+tr:nth-child(even) {
+    background-color: #c9c9c9;
+}
